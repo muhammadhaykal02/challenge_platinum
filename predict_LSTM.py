@@ -4,10 +4,10 @@ import pandas as pd
 from keras_preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
-with open('Data/tokenizerLSTM.pickle', 'rb') as handle:
+with open('Data_LSTM/tokenizerLSTM.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
-Model=load_model('Data/model_lstm.h5')
+Model=load_model('Data_LSTM/model_lstm.h5')
 
 def predictText_LSTM(text):
     print(text)
