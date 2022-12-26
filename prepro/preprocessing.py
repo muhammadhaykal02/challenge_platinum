@@ -8,10 +8,7 @@ import nltk
 nltk.download('punkt')
 
 class Preprocessing():
-    def __init__(self) -> None:
-        with open(os.path.join("models", "vect.pkl"), 'rb') as f:
-            self.vect = pickle.load(f)
-        
+    def __init__(self) -> None:        
         with open(os.path.join("models", "count_vect.pkl"), 'rb') as f:
             self.count_vect = pickle.load(f)
             
