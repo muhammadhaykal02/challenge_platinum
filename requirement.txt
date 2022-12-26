@@ -1,0 +1,10 @@
+Flask
+flasgger
+gradio
+pandas
+unidecode
+pickle
+numpy
+tensorflow
+keras
+sqlite3
