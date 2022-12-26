@@ -8,3 +8,8 @@ numpy
 tensorflow
 keras
 sqlite3
+streamlit
+streamlit-option-menu
+sklearn
+regex
+nltk
